@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Productivity Thing",
+    "description": "I have no idea what I am doing right now",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Productivity Thing"
+    }
+}
