@@ -1,10 +1,14 @@
 {
     "manifest_version": 3,
-    "name": "Productivity Thing",
-    "description": "I have no idea what I am doing right now",
-    "version": "1.0.0",
+    "name": "Tab Manager for Chrome Dev Docs",
+    "version": "1.0",
     "action": {
-        "default_popup": "index.html",
-        "default_title": "Productivity Thing"
-    }
-}
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://developer.chrome.com/*"
+    ],
+    "permissions": [
+      "tabGroups"
+    ]
+  }
